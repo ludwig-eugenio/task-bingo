@@ -11,7 +11,7 @@ const BoardSetup = () => {
 
     const handleChooseDimension = (dimension) => {
         setDimension(dimension);
-        navigate("/tasks");
+        navigate("/task-bingo/tasks");
     }
 
     return <div>

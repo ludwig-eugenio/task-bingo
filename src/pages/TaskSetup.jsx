@@ -29,7 +29,7 @@ const TaskSetup = () => {
         </div>
         {isTaskFilled &&
             <div className="actions">
-                <Anchor to="/game">LET'S GO</Anchor>
+                <Anchor to="/task-bingo/game">LET'S GO</Anchor>
             </div>
         }
     </div>)

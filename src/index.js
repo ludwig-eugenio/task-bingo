@@ -24,19 +24,19 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/task-bingo",
     element: <App />,
   },
   {
-    path: "/setup",
+    path: "/task-bingo/setup",
     element: <BoardSetup />,
   },
   {
-    path: "/tasks",
+    path: "/task-bingo/tasks",
     element: <TaskSetup />,
   },
   {
-    path: "/game",
+    path: "/task-bingo/game",
     element: <Game />,
   },
 ]);
